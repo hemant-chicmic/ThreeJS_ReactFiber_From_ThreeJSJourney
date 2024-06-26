@@ -1,3 +1,5 @@
+
+
 import { useFrame } from '@react-three/fiber'
 import { AccumulativeShadows , SoftShadows , BakeShadows , useHelper , OrbitControls, RandomizedLight } from '@react-three/drei'
 import { useRef } from 'react'
@@ -8,10 +10,8 @@ import * as THREE from 'three' ;
 
 export default function Experience()
 {
-
     const directionalLight = useRef() ; 
     useHelper(directionalLight , THREE.DirectionalLightHelper , 1  ) ; 
-
 
     const cube = useRef()
     
